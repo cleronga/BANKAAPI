@@ -1,0 +1,30 @@
+{
+  "name": "bankaapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleronga/BANKAAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleronga/BANKAAPI/issues"
+  },
+  "homepage": "https://github.com/cleronga/BANKAAPI#readme",
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "express": "^4.16.4",
+    "mocha": "^6.1.3",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.11"
+  }
+}

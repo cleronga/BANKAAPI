@@ -1,5 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import router from './Route/route';
 
 const app = express();
 app.use(express.json());
@@ -10,7 +11,7 @@ app.get('/', (req, res) => {
   res.send({ message: 'Welcome to Banka' });
 });
 
-//app.use('/api/v1', routes);
+app.use(router);
 
 const port = process.env.PORT || 5000;
 

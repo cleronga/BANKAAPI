@@ -1,7 +1,11 @@
-import chai from 'chai';
+/*import chai from 'chai';
 import chaiHttp from 'chai-http';
 import app from '../server';
-import jwt from 'jsonwebtoken';
+import jwt from 'jsonwebtoken';*/
+var chai=require('chai'),
+var chaiHttp=require('chai-http'),
+var jwt=require('josnwebtoken'),
+var app=require('../server'),
 
 const { expect } = chai;
 chai.use(chaiHttp);

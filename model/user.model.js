@@ -1,3 +1,4 @@
+//import bcrypt from 'bcrypt';
 const users=[
     {
         id:Date.now(),
@@ -6,7 +7,8 @@ const users=[
         lastname:'Roger',
         password:'12345',
         type:'staff',
-        isAdmin:false
+        isAdmin:true
     }
 ];
 export default users;
+

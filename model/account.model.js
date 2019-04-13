@@ -1,9 +1,9 @@
 const accounts=[
     {
-        id:"",
-        accountnumber:Math.floor(Math.random() * 90000) + 10000,
+        id:"1234",
+        accountnumber:9090,
         createon:`${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`,
-        owner:"",
+        owner:"15128",
         type:"current",
         status:"draft",
         balance:5000
